@@ -1,0 +1,1 @@
+execute as @a run function deepslayte:modify_hotbar

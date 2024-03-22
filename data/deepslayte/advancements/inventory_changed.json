@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "check":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_pickaxe",
+                        "components": {
+                            "minecraft:tool": {
+                                "default_mining_speed": 1,
+                                "rules": [
+                                    {
+                                        "blocks": "#minecraft:incorrect_for_netherite_tool",
+                                        "correct_for_drops": false
+                                    },
+                                    {
+                                        "blocks": "#minecraft:mineable/pickaxe",
+                                        "speed": 9,
+                                        "correct_for_drops": true
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "deepslayte:inventory_changed"
+    }
+}

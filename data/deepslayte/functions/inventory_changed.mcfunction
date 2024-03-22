@@ -1,0 +1,2 @@
+advancement revoke @s only deepslayte:inventory_changed
+function deepslayte:modify_hotbar

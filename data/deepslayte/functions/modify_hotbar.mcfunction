@@ -1,0 +1,9 @@
+item modify entity @s hotbar.0 deepslayte:set_mining_speed_0
+item modify entity @s hotbar.1 deepslayte:set_mining_speed_1
+item modify entity @s hotbar.2 deepslayte:set_mining_speed_2
+item modify entity @s hotbar.3 deepslayte:set_mining_speed_3
+item modify entity @s hotbar.4 deepslayte:set_mining_speed_4
+item modify entity @s hotbar.5 deepslayte:set_mining_speed_5
+item modify entity @s hotbar.6 deepslayte:set_mining_speed_6
+item modify entity @s hotbar.7 deepslayte:set_mining_speed_7
+item modify entity @s hotbar.8 deepslayte:set_mining_speed_8

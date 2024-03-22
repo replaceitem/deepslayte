@@ -1,0 +1,51 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:tool": {
+            "rules": [
+                {
+                    "blocks": "#minecraft:incorrect_for_netherite_tool",
+                    "correct_for_drops": false
+                },
+                {
+                    "blocks": "minecraft:deepslate",
+                    "speed": 39
+                },
+                {
+                    "blocks": "#minecraft:mineable/pickaxe",
+                    "speed": 9,
+                    "correct_for_drops": true
+                }
+            ]
+        }
+    },
+    "conditions": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "hotbar.1": {
+                        "items": "minecraft:netherite_pickaxe",
+                        "components": {
+                            "minecraft:tool": {
+                                "default_mining_speed": 1,
+                                "rules": [
+                                    {
+                                        "blocks": "#minecraft:incorrect_for_netherite_tool",
+                                        "correct_for_drops": false
+                                    },
+                                    {
+                                        "blocks": "#minecraft:mineable/pickaxe",
+                                        "speed": 9,
+                                        "correct_for_drops": true
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
